@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.orbit1 {
+    animation: spin-right 20s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit2 {
+    animation: spin-right 15s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit3 {
+    animation: spin-right 20s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit4 {
+    animation: spin-right 12s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit5 {
+    animation: spin-right 15s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit6 {
+    animation: spin-right 16s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit7 {
+    animation: spin-right 18s linear infinite;
+    transform-origin: 50%;
+}
+
+.orbit8 {
+    animation: spin-right 20s linear infinite;
+    transform-origin: 50%;
+}
+
+@keyframes spin-right {
+    100% {
+        transform: rotate(360deg);
+    }
+}
